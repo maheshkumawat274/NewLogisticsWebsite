@@ -14,14 +14,13 @@ import {
 import { cn } from "../lib/utils"
 
 interface TextScrollProps {
-  text: React.ReactNode   // 🔥 string → React.ReactNode
+  text: React.ReactNode         // Make sure it's string now
   default_velocity?: number
   className?: string
 }
 
-
 interface ParallaxProps {
-  children: string
+  children: React.ReactNode
   baseVelocity: number
   className?: string
 }
@@ -74,9 +73,10 @@ export const TextScroll: React.FC<TextScrollProps> = ({
     }, [children])
 
     const x = useTransform(baseX, (v) => `${wrap(-100 / repetitions, 0, v)}%`)
-
     const directionFactor = useRef<number>(1)
-    useAnimationFrame((t, delta) => {
+
+    // ✅ Prefix unused t with _ to remove the TS warning
+    useAnimationFrame((_t, delta) => {
       let moveBy = directionFactor.current * baseVelocity * (delta / 1000)
 
       if (velocityFactor.get() < 0) {
@@ -91,10 +91,7 @@ export const TextScroll: React.FC<TextScrollProps> = ({
     })
 
     return (
-      <div
-        className="w-full overflow-hidden whitespace-nowrap"
-        ref={containerRef}
-      >
+      <div className="w-full overflow-hidden whitespace-nowrap" ref={containerRef}>
         <motion.div className={cn("inline-block", className)} style={{ x }}>
           {Array.from({ length: repetitions }).map((_, i) => (
             <span key={i} ref={i === 0 ? textRef : null}>
