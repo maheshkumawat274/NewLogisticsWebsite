@@ -11,14 +11,14 @@ const MiddleDistillates: React.FC = () => {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-14">
-          At <span className="font-semibold text-[#046381]">Well Global Inc</span>, 
+          At <span className="font-semibold text-[#C5A15C]">Well Global Inc</span>, 
           our <span className="font-semibold">Middle Distillates Products</span> 
           bridge the gap between lighter fuels like 
           <span className="text-gray-900"> LPG and gasoline</span> 
           and heavier fuels such as <span className="text-gray-900">fuel oil</span>. 
           These refined products—<span className="font-semibold">Gasoil, Kerosene, Diesel, and Jet Fuel</span>— 
           are clear to light yellow in appearance, ensuring high efficiency and global quality standards. 
-          With innovation and responsibility, <span className="font-semibold text-[#046381]">Well Global Inc</span> 
+          With innovation and responsibility, <span className="font-semibold text-[#C5A15C]">Well Global Inc</span> 
           delivers sustainable and reliable energy solutions worldwide.
         </p>
       </div>
@@ -27,7 +27,7 @@ const MiddleDistillates: React.FC = () => {
       <div className="grid md:grid-cols-2 gap-10 mx-auto">
         {/* Jet A1 / Kerosine */}
         <div className="bg-gray-50 shadow-lg rounded-2xl p-2 sm:p-6 hover:shadow-2xl transition duration-300">
-          <h3 className="text-xl font-semibold text-[#046381] mb-3">
+          <h3 className="text-xl font-semibold text-[#C5A15C] mb-3">
             JET A1 / Kerosine
           </h3>
           <p className="text-gray-600 leading-relaxed">
@@ -40,14 +40,14 @@ const MiddleDistillates: React.FC = () => {
 
         {/* Gasoil */}
         <div className="bg-gray-50 shadow-lg rounded-2xl p-2 sm:p-6 hover:shadow-2xl transition duration-300">
-          <h3 className="text-xl font-semibold text-[#046381] mb-3">
+          <h3 className="text-xl font-semibold text-[#C5A15C] mb-3">
             GASOIL
           </h3>
           <p className="text-gray-600 leading-relaxed">
             Gas oil, historically marked with a red dye, became popular in the 1960s. 
             Initially used for heating, it evolved into a trusted vehicle fuel, 
             supporting industries even before natural gas became widely available. 
-            Today, it remains a key product in <span className="font-semibold text-[#046381]">Well Global Inc’s</span> 
+            Today, it remains a key product in <span className="font-semibold text-[#C5A15C]">Well Global Inc’s</span> 
             energy portfolio.
           </p>
         </div>

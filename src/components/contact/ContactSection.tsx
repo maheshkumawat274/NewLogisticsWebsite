@@ -5,7 +5,7 @@ const ContactSection = () => {
      <section className="bg-gray-50 py-12">
   <div className="max-w-6xl mx-auto px-4 text-center">
     {/* Heading */}
-    <h2 className="text-3xl font-bold text-[#046381] mb-4">Get in Touch</h2>
+    <h2 className="text-3xl font-bold text-[#C5A15C] mb-4">Get in Touch</h2>
     <p className="text-gray-600 mb-12">
       Reach out to us using the details below.
     </p>
@@ -23,13 +23,13 @@ const ContactSection = () => {
 
       {/* Contact Info */}
       <div className="bg-white p-2 sm:p-8 rounded-2xl shadow-md text-left">
-        <h3 className="text-xl font-semibold text-[#046381] mb-6">
+        <h3 className="text-xl font-semibold text-[#C5A15C] mb-6">
           Contact Information
         </h3>
       
         {/* Headquarters */}
         <div className="flex items-start gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">🏢</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">🏢</span>
           <p className="text-gray-700">
             <strong>Headquarters:</strong> 1712 Pioneer Avenue, Suite 500, Cheyenne WY 82001, Wyoming, United States
           </p>
@@ -37,7 +37,7 @@ const ContactSection = () => {
       
         {/* Fuel Operations */}
         <div className="flex items-start gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">⛽</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">⛽</span>
           <p className="text-gray-700">
             <strong>Fuel Operations:</strong> Houston, Rotterdam, Dubai, Middle East & Asia
           </p>
@@ -45,7 +45,7 @@ const ContactSection = () => {
       
         {/* Fertilizer Operations */}
         <div className="flex items-start gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">🌱</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">🌱</span>
           <p className="text-gray-700">
             <strong>Fertilizer Operations:</strong> India
           </p>
@@ -53,7 +53,7 @@ const ContactSection = () => {
       
         {/* Gold & Diamond Operations */}
         <div className="flex items-start gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">💎</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">💎</span>
           <p className="text-gray-700">
             <strong>Gold & Diamond Operations:</strong> East Africa & Dubai
           </p>
@@ -61,19 +61,19 @@ const ContactSection = () => {
       
         {/* Email */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">📧</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">📧</span>
           <p className="text-gray-700">Info@wellglobalinc.com</p>
         </div>
       
         {/* Phone */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">📞</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">📞</span>
           <p className="text-gray-700">+1 (301)-755-8105 / +1 (301)-755-8202</p>
         </div>
       
         {/* Tel */}
         <div className="flex items-center gap-3">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">☎️</span>
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">☎️</span>
           <p className="text-gray-700">+971 588-878-081 / +971 585-859-178</p>
         </div>
       </div>

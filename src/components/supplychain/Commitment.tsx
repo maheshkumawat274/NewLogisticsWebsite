@@ -9,7 +9,7 @@ const Commitment = () => {
         {/* Heading */}
         <h2 className="text-2xl md:text-5xl font-bold text-gray-900 mb-16">
           Commitment to Excellence{" "}
-          <span className="text-[#046381]">– Well Global Inc.</span>
+          <span className="text-[#C5A15C]">– Well Global Inc.</span>
         </h2>
 
         {/* 3 Columns */}
@@ -18,7 +18,7 @@ const Commitment = () => {
           {/* Resilience */}
           <div className="group p-3 sm:p-6 bg-gray-50 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transform transition duration-300">
             <div className="flex justify-center mb-5">
-              <ShieldCheck className="w-14 h-14 text-[#046381] group-hover:text-blue-600 transition duration-300" />
+              <ShieldCheck className="w-14 h-14 text-[#C5A15C] group-hover:text-blue-600 transition duration-300" />
             </div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-3">
               Resilience
@@ -33,7 +33,7 @@ const Commitment = () => {
           {/* Innovation */}
           <div className="group p-3 sm:p-6 bg-gray-50 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transform transition duration-300">
             <div className="flex justify-center mb-5">
-              <Lightbulb className="w-14 h-14 text-[#046381] group-hover:text-yellow-500 transition duration-300" />
+              <Lightbulb className="w-14 h-14 text-[#C5A15C] group-hover:text-yellow-500 transition duration-300" />
             </div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-3">
               Innovation
@@ -48,7 +48,7 @@ const Commitment = () => {
           {/* Customer-Centric Approach */}
           <div className="group p-3 sm:p-6 bg-gray-50 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transform transition duration-300">
             <div className="flex justify-center mb-5">
-              <Handshake className="w-14 h-14 text-indigo-600 group-hover:text-green-600 transition duration-300" />
+              <Handshake className="w-14 h-14 text-[#C5A15C] group-hover:text-green-600 transition duration-300" />
             </div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-3">
               Customer-Centric

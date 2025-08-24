@@ -11,12 +11,12 @@ export default function PartnerSection() {
             Partner With Us
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            At <span className="font-semibold text-[#046381]">Well Global Inc.</span>, 
+            At <span className="font-semibold text-[#C5A15C]">Well Global Inc.</span>, 
             we are a trusted leader in the oil and energy industry, dedicated to delivering 
             innovation, reliability, and efficiency in global supply chain and logistics. 
-            With years of expertise, <span className="font-semibold text-[#046381]">Well Global Inc.</span> 
+            With years of expertise, <span className="font-semibold text-[#C5A15C]">Well Global Inc.</span> 
             ensures sustainable solutions that meet the evolving energy needs of businesses worldwide. 
-            Partner with <span className="font-semibold text-[#046381]">Well Global Inc.</span> today to explore 
+            Partner with <span className="font-semibold text-[#C5A15C]">Well Global Inc.</span> today to explore 
             how our advanced strategies can drive growth, strengthen operations, and create 
             long-term value for your organization.
           </p>
@@ -24,15 +24,15 @@ export default function PartnerSection() {
           {/* Highlights with Icons */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
             <div className="flex flex-col items-center text-center p-4 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
-              <FaIndustry className="text-[#046381] text-3xl mb-2" />
+              <FaIndustry className="text-[#C5A15C] text-3xl mb-2" />
               <p className="text-sm font-medium">Energy Innovation</p>
             </div>
             <div className="flex flex-col items-center text-center p-4 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
-              <FaGlobe className="text-[#046381] text-3xl mb-2" />
+              <FaGlobe className="text-[#C5A15C] text-3xl mb-2" />
               <p className="text-sm font-medium">Global Reach</p>
             </div>
             <div className="flex flex-col items-center text-center p-4 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
-              <FaHandshake className="text-[#046381] text-3xl mb-2" />
+              <FaHandshake className="text-[#C5A15C] text-3xl mb-2" />
               <p className="text-sm font-medium">Trusted Partnership</p>
             </div>
           </div>

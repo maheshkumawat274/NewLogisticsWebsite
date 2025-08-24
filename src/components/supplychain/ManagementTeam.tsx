@@ -16,15 +16,15 @@ const ManagementTeam = () => {
 
           <ul className="space-y-4 text-gray-700">
             <li>
-              <span className="font-semibold text-[#273aa0]">President –</span> 
+              <span className="font-semibold text-[#C5A15C]">President –</span> 
               Over 30 years of expertise in banking and finance, providing strong financial governance and strategic direction for global growth.
             </li>
             <li>
-              <span className="font-semibold text-[#273aa0]">Vice President –</span> 
+              <span className="font-semibold text-[#C5A15C]">Vice President –</span> 
               More than 30 years in finance, sales, and marketing, with deep business acumen and global commercial expertise.
             </li>
             <li>
-              <span className="font-semibold text-[#273aa0]">Chief Operations Officer (COO) –</span> 
+              <span className="font-semibold text-[#C5A15C]">Chief Operations Officer (COO) –</span> 
               A Petroleum Engineer with 7+ years in the oil & gas sector, spanning upstream to downstream, now driving efficiency and excellence in refined products and commodity operations.
             </li>
           </ul>
