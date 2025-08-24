@@ -27,8 +27,11 @@ const HomeCardsSection = () => {
 
   return (
     <section className="py-5 px-4 bg-gray-100">
-      <div className="mx-auto text-start md:text-center mb-15">
+      {/* <div className="mx-auto text-start md:text-center mb-15">
         <h2 className="text-xl sm:text-2xl">"WellGlobal Inc, based in Houston, Texas, is a premier exploration and production company with focused operations in the Permian Basin, Marcellus Shale, and Anadarko Basin. WellGlobal Inc is committed to being a leading energy producer, delivering sustainable returns through the efficient and responsible development of its diversified oil and natural gas asset base.”</h2>
+      </div> */}
+      <div className="text-start md:text-center mb-15">
+        <h2 className="text-xl sm:text-4xl font-bold">Our Core Products & Services</h2>
       </div>
 
       <div className="flex flex-wrap gap-x-6 gap-y-10 justify-center">

@@ -12,7 +12,7 @@ const WelcomeSection = () => {
             <h1 className="text-2xl md:text-4xl font-bold mb-6">Welcome to WELL GLOBAL INC (WGI) <span className="text-lg md:text-xl font-semibold"> — a trusted name in global commodities.</span></h1>
             <p className="text-md md:text-lg">
               
-              With expertise spanning fuels, fertilizers, precious metals, and gemstones, WGI delivers consistent value and dependable solutions to governments, institutions, and private sector clients worldwide. Our integrated operations across North America, Europe, the Middle East, Asia, and Africa allow us to source, refine, and deliver products that power industries, sustain growth, and foster lasting partnerships.
+              With expertise spanning fuels, fertilizers, precious metals, and gemstones, WGI delivers consistent value and dependable solutions to governments, institutions, and private sector clients worldwide. Our integrated operations across North America, Europe, the Middle East, Asia, and Africa allow us to source, and deliver products that power industries, sustain growth, and foster lasting partnerships.
 
             </p>
           </div>
