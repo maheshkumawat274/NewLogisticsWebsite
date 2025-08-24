@@ -95,7 +95,7 @@ const Header = () => {
 
             {/* Light Footer Border */}
             <div className="border-t border-gray-300 text-center py-4 text-sm text-gray-500 mt-auto">
-              © 2025 MyCompany. All rights reserved.
+              ©Well Global INC 2025. All rights reserved.
             </div>
           </motion.div>
         )}

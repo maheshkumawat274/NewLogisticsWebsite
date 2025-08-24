@@ -15,15 +15,12 @@ const ContactBtn = () => {
         <span
           className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-white px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined"
         >
-          <a 
-            href='https://calendly.com/rohitprasharwork/30min?month=2025-07'
-            target="_blank"
-            rel="noopener noreferrer"
+          <p
             className= "text-black hover:text-[#046381]"  
             >
             
             Contact Us
-          </a>
+          </p>
           <svg
             stroke="currentColor"
             fill="currentColor"

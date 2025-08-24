@@ -11,6 +11,8 @@ import ProductsPage from "./pages/products";
 import ContactPage from "./pages/contact";
 import CareerPage from "./pages/career";
 import ScrollTop from "./components/ScrollTop";
+import PrivacyPolicy from "./components/privacypolicy/PrivacyPolicy";
+import TermsOfUse from "./components/privacypolicy/TermsofUse";
 function App() {
   return (
     <Router>
@@ -23,6 +25,8 @@ function App() {
         <Route path="/products" element={<ProductsPage/>}/>
         <Route path="/contactus" element={<ContactPage/>}/>
         <Route path="/career" element={<CareerPage/>}/>
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
+        <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>
       <Footer/>
     </Router>

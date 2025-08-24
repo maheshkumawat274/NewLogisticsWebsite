@@ -80,8 +80,12 @@ export default function Footer() {
         <div className="mt-10 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm border-t border-gray-700 pt-6">
           <p>©Well Global INC 2025. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-yellow-500">Terms of use</a>
-            <a href="#" className="hover:text-yellow-500">Privacy</a>
+            <p className="hover:underline">
+              <Link to='/termsofuse'>Terms of use</Link>
+            </p>
+            <p className="hover:underline">
+            <Link to='/privacypolicy'>Privacy Policy</Link>
+            </p>
           </div>
         </div>
       </div>
