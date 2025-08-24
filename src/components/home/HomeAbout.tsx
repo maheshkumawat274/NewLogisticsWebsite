@@ -5,7 +5,7 @@ export default function HomeAbout() {
   return (
     <section className="bg-neutral-900 text-white px-4 sm:px-10 py-10 sm:py-20">
       <div>
-        <h3>/Aboutus/</h3>
+        <h3 className="text-3xl sm:text-4xl font-bold">/ Aboutus /</h3>
       </div>
       <div className="py-8">
         <hr/>
@@ -14,7 +14,7 @@ export default function HomeAbout() {
         
         {/* Left Title Section */}
         <div>
-          <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
+          <h1 className="text-2xl sm:text-5xl font-bold leading-tight">
             Top Transportation <br />
             Company Partnered with <br />
             Well Global Inc
@@ -24,11 +24,21 @@ export default function HomeAbout() {
         {/* Right Description Section */}
         <div>
           <p className="text-gray-300 mb-4">
-            Well Global Inc specializes in delivering safe, fast, and cost-effective transportation and logistics solutions tailored for modern businesses. Well Global Inc is committed to excellence, innovation, and customer satisfaction, ensuring every shipment arrives on time and every supply chain runs smoothly.
+            WELL GLOBAL INC (WGI) is a diversified commodities company, headquartered in Wyoming, USA, with a strong international presence in Houston, Rotterdam, Dubai, India, and East Africa.
           </p>
           <p className="text-gray-300 mb-8">
-            With Well Global Inc’s modern fleet, advanced tracking systems, and dedicated support team, Well Global Inc efficiently connects businesses and communities while maintaining the highest standards of reliability and trust.
+            Our core business revolves around the sourcing and supply of refined fuels (EN590 diesel, Jet Fuel, D6, and other petroleum products), fertilizers (urea and agricultural nutrients), and precious commodities (gold and diamonds).
           </p>
+          <p className="text-gray-300 mb-8">
+            By combining global reach with deep sector expertise, WGI stands as a reliable partner in critical supply chains that fuel economies and generate long-term value across markets.
+          </p>
+          <p className="text-gray-300 mb-8">
+           
+             We uphold the highest standards of integrity, transparency, and accountability, ensuring every transaction meets international compliance benchmarks while delivering a competitive edge to our clients.
+
+          </p>
+
+          
 
           {/* Button */}
           <Link to='/aboutus'>

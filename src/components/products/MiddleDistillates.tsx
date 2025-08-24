@@ -2,8 +2,8 @@ import React from "react";
 
 const MiddleDistillates: React.FC = () => {
   return (
-    <section className=" py-16 px-4 md:px-10">
-      <div className="max-w-6xl mx-auto text-center">
+    <section className="py-4 sm:py-16 px-4 md:px-10">
+      <div className="max-w-6xl mx-auto text-start sm:text-center">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
           Middle Distillates Products
@@ -26,7 +26,7 @@ const MiddleDistillates: React.FC = () => {
       {/* Products Grid */}
       <div className="grid md:grid-cols-2 gap-10 mx-auto">
         {/* Jet A1 / Kerosine */}
-        <div className="bg-gray-50 shadow-lg rounded-2xl p-8 hover:shadow-2xl transition duration-300">
+        <div className="bg-gray-50 shadow-lg rounded-2xl p-2 sm:p-6 hover:shadow-2xl transition duration-300">
           <h3 className="text-xl font-semibold text-[#046381] mb-3">
             JET A1 / Kerosine
           </h3>
@@ -39,7 +39,7 @@ const MiddleDistillates: React.FC = () => {
         </div>
 
         {/* Gasoil */}
-        <div className="bg-gray-50 shadow-lg rounded-2xl p-8 hover:shadow-2xl transition duration-300">
+        <div className="bg-gray-50 shadow-lg rounded-2xl p-2 sm:p-6 hover:shadow-2xl transition duration-300">
           <h3 className="text-xl font-semibold text-[#046381] mb-3">
             GASOIL
           </h3>

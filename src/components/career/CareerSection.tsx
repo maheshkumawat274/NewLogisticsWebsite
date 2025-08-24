@@ -2,8 +2,8 @@
 
 export default function CareerSection() {
   return (
-    <section className="py-16 bg-white px-4 sm:px-10">
-      <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch px-6">
+    <section className="py-4 sm:py-10 bg-white px-4 sm:px-10">
+      <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
         {/* Left Side Image */}
         <div className="flex">
           <img

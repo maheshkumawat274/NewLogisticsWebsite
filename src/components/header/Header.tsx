@@ -17,10 +17,10 @@ const Header = () => {
 
   return (
     <header className="w-full px-4 md:px-6 shadow-md fixed top-0 left-0 bg-white z-50">
-      <div className="flex justify-between items-center px-6 py-4">
+      <div className="flex justify-between items-center px-6">
         {/* Logo */}
-        <div>
-          <img src="/imgs/WGI1.png" className="w-16 h-16"/>
+        <div className="w-24 h-24">
+          <img src="/imgs/logoMain.png" className="w-full h-full"/>
         </div>
 
         {/* Desktop Menu */}
@@ -32,8 +32,8 @@ const Header = () => {
               className={({ isActive }) =>
                 `relative px-2 py-1 text-sm transition duration-200 ${
                   isActive
-                    ? "text-[#385768] font-bold after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-[#385768]"
-                    : "text-gray-800 font-semibold  hover:text-[#385768] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#385768] hover:after:w-full after:transition-all after:duration-300"
+                    ? "text-[#C5A15C] font-bold after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-[#C5A15C]"
+                    : "text-gray-800 font-semibold  hover:text-[#C5A15C] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#C5A15C] hover:after:w-full after:transition-all after:duration-300"
                 }`
               }
             >
@@ -63,7 +63,7 @@ const Header = () => {
           >
             {/* Top Bar with Logo + Close */}
             <div className="flex justify-between items-center px-6 py-4 border-b border-gray-300">
-              <img src="/imgs/WGI1.png" className="w-16 h-16"/>
+              <img src="/imgs/logoMain.png" className="w-18 h-18"/>
               <button
                 onClick={() => setIsOpen(false)}
                 className="text-3xl text-gray-800"
@@ -82,8 +82,8 @@ const Header = () => {
                   className={({ isActive }) =>
                     `flex items-center justify-between w-full border-b border-gray-300 py-3 text-md font-medium ${
                       isActive
-                        ? "text-[#385768] border-[#385768]"
-                        : "text-gray-800 hover:text-[#385768] hover:border-[#385768]"
+                        ? "text-[#C5A15C] border-[#C5A15C]"
+                        : "text-gray-800 hover:text-[#C5A15C] hover:border-[#C5A15C]"
                     }`
                   }
                 >

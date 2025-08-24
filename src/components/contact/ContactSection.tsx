@@ -11,28 +11,73 @@ const ContactSection = () => {
     </p>
 
     {/* Contact Cards */}
-    <div className="grid md:grid-cols-2 gap-8 items-center">
+    <div className="grid md:grid-cols-2 gap-8 items-stretch">
       {/* Left Image */}
-      <div className="flex justify-start">
+      <div className="flex ">
         <img
           src="/imgs/article-thumb-10.webp"
           alt="Meeting"
-          className="rounded-2xl shadow-lg w-[90%] h-[280px] object-cover"
+          className="w-full h-full object-cover rounded-lg shadow-lg"
         />
       </div>
 
       {/* Contact Info */}
-      <div className="bg-white p-8 rounded-2xl shadow-md text-left">
-        <h3 className="text-xl font-semibold text-[#046381] mb-4">Contact Information</h3>
-        
-        <div className="flex items-center gap-3 mb-4">
-          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">
-            📧
-          </span>
-          <p className="text-gray-700">info@aamiglobal.com</p>
+      <div className="bg-white p-2 sm:p-8 rounded-2xl shadow-md text-left">
+        <h3 className="text-xl font-semibold text-[#046381] mb-6">
+          Contact Information
+        </h3>
+      
+        {/* Headquarters */}
+        <div className="flex items-start gap-3 mb-4">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">🏢</span>
+          <p className="text-gray-700">
+            <strong>Headquarters:</strong> 1712 Pioneer Avenue, Suite 500, Cheyenne WY 82001, Wyoming, United States
+          </p>
         </div>
-
+      
+        {/* Fuel Operations */}
+        <div className="flex items-start gap-3 mb-4">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">⛽</span>
+          <p className="text-gray-700">
+            <strong>Fuel Operations:</strong> Houston, Rotterdam, Dubai, Middle East & Asia
+          </p>
+        </div>
+      
+        {/* Fertilizer Operations */}
+        <div className="flex items-start gap-3 mb-4">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">🌱</span>
+          <p className="text-gray-700">
+            <strong>Fertilizer Operations:</strong> India
+          </p>
+        </div>
+      
+        {/* Gold & Diamond Operations */}
+        <div className="flex items-start gap-3 mb-4">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">💎</span>
+          <p className="text-gray-700">
+            <strong>Gold & Diamond Operations:</strong> East Africa & Dubai
+          </p>
+        </div>
+      
+        {/* Email */}
+        <div className="flex items-center gap-3 mb-4">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">📧</span>
+          <p className="text-gray-700">Info@wellglobalinc.com</p>
+        </div>
+      
+        {/* Phone */}
+        <div className="flex items-center gap-3 mb-4">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">📞</span>
+          <p className="text-gray-700">+1 (301)-755-8105 / +1 (301)-755-8202</p>
+        </div>
+      
+        {/* Tel */}
+        <div className="flex items-center gap-3">
+          <span className="p-3 rounded-full bg-[#046381]/10 text-[#046381]">☎️</span>
+          <p className="text-gray-700">+971 588-878-081 / +971 585-859-178</p>
+        </div>
       </div>
+
 
       {/* Right Image */}
       <div className="flex justify-center md:col-span-2">

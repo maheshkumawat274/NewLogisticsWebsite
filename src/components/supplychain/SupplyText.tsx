@@ -2,10 +2,10 @@ import { Ship, Globe2, Boxes } from "lucide-react";
 
 export default function SupplyChainSection() {
   return (
-    <section className="max-w-6xl mx-auto px-6 pt-16">
+    <section className="max-w-6xl mx-auto px-4 pt-16">
       {/* Section Title */}
-      <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-black">
+      <div className="mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-black text-center">
           Global Supply Chain
         </h2>
         <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
@@ -18,7 +18,7 @@ export default function SupplyChainSection() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
         
         {/* Card 1 */}
-        <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
+        <div className="flex flex-col items-center text-start p-3 sm:p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
           <div className="p-4 bg-blue-100 rounded-full mb-4">
             <Ship className="w-10 h-10 text-blue-600" />
           </div>
@@ -33,7 +33,7 @@ export default function SupplyChainSection() {
         </div>
 
         {/* Card 2 */}
-        <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
+        <div className="flex flex-col items-center text-start p-3 sm:p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
           <div className="p-4 bg-green-100 rounded-full mb-4">
             <Globe2 className="w-10 h-10 text-green-600" />
           </div>
@@ -48,7 +48,7 @@ export default function SupplyChainSection() {
         </div>
 
         {/* Card 3 */}
-        <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
+        <div className="flex flex-col items-center text-start p-3 sm:p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
           <div className="p-4 bg-yellow-100 rounded-full mb-4">
             <Boxes className="w-10 h-10 text-yellow-600" />
           </div>

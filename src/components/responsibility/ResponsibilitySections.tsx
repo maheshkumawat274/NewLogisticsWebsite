@@ -35,11 +35,11 @@ const services: Service[] = [
 
 const ResponsibilitySections: React.FC = () => {
   return (
-    <section className="py-16 px-4 md:px-10">
-      <div className=" mx-auto px-6 space-y-20">
+    <section className="py-4 sm:py-10 px-4 md:px-10">
+      <div className=" mx-auto space-y-20">
 
         {/* Section Title + Description */}
-        <div className="text-center max-w-5xl mx-auto mb-12">
+        <div className="text-start sm:text-center max-w-5xl mx-auto mb-12">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Our Core Responsibilities
           </h1>
@@ -56,7 +56,7 @@ const ResponsibilitySections: React.FC = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+            className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12 items-center"
           >
             {index % 2 === 0 ? (
               <>
