@@ -26,7 +26,7 @@ const ProductTopText: React.FC = () => {
         {/* Right Column: Content */}
         <div className="w-full md:w-2/3 space-y-8">
           <p className="text-lg leading-relaxed">
-           Well Global Inc handles heavy distillates, also known as heavy oils, and often converts them into more valuable products through a process called ‘cracking’. At Well Global Inc, this process involves applying extreme heat, pressure, and a catalyst to break down long hydrocarbon chains efficiently. Well Global Inc utilizes some heavy oils to produce products such as waxes, lubricants, and asphalt/bitumen. Additionally, Well Global Inc acknowledges that heavy fuel oil has traditionally been used as shipping fuel due to its relatively low production cost.
+           WellGlobal Inc handles heavy distillates, also known as heavy oils, and often converts them into more valuable products through a process called ‘cracking’. At WellGlobal Inc, this process involves applying extreme heat, pressure, and a catalyst to break down long hydrocarbon chains efficiently. WellGlobal Inc utilizes some heavy oils to supply products such as waxes, lubricants, and asphalt/bitumen. Additionally, WellGlobal Inc acknowledges that heavy fuel oil has traditionally been used as shipping fuel due to its relatively low supply cost.
           </p>
         </div>
       </div>

@@ -11,15 +11,7 @@ const MiddleDistillates: React.FC = () => {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-14">
-          At <span className="font-semibold text-[#C5A15C]">Well Global Inc</span>, 
-          our <span className="font-semibold">Middle Distillates Products</span> 
-          bridge the gap between lighter fuels like 
-          <span className="text-gray-900"> LPG and gasoline</span> 
-          and heavier fuels such as <span className="text-gray-900">fuel oil</span>. 
-          These refined products—<span className="font-semibold">Gasoil, Kerosene, Diesel, and Jet Fuel</span>— 
-          are clear to light yellow in appearance, ensuring high efficiency and global quality standards. 
-          With innovation and responsibility, <span className="font-semibold text-[#C5A15C]">Well Global Inc</span> 
-          delivers sustainable and reliable energy solutions worldwide.
+          At WellGlobal Inc, our middle distillate supplies bridge the gap between lighter fuels like LPG and gasoline and heavier fuels such as fuel oil. These refined products—Gasoil, Kerosene, Diesel, and Jet Fuel—are clear to light yellow in appearance and meet global quality standards. With a strong focus on reliability and responsibility, WellGlobal Inc supplies sustainable energy solutions to markets worldwide.
         </p>
       </div>
 

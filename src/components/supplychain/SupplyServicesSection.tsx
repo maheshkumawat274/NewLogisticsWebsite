@@ -5,8 +5,8 @@ const SupplyServicesSection = () => {
   const cardData = [
     {
       img: "/imgs/Strategic-Transportation-Network-Design-for-Global-Logistics.jpg",
-      title: "Transportation Network",
-      description: "WellGlobal Inc operates a robust transportation network of pipelines, tankers, rail, and trucks, ensuring maximum efficiency in the movement of crude oil, refined products, and essential energy materials.",
+      title: "Supply & Distribution Network",
+      description: "WellGlobal Inc operates a robust supply and distribution network, ensuring the reliable and timely delivery of crude oil, refined products, and essential energy materials. Through strategic partnerships and efficient supply channels, the company maximizes reach and supports consistent availability across key markets.",
     },
     {
       img: "/imgs/transport-visibility_header.jpg.webp",
@@ -16,7 +16,7 @@ const SupplyServicesSection = () => {
     {
       img: "/imgs/download-1.jpeg",
       title: "Safety First",
-      description: "WellGlobal Inc prioritizes safety first with comprehensive safety protocols designed to protect people, safeguard the environment, and secure valuable assets throughout its logistics and transportation operations.",
+      description: "WellGlobal Inc prioritizes safety first with comprehensive protocols designed to protect people, safeguard the environment, and secure valuable assets throughout its supply and distribution operations.",
     }
   ];
 

@@ -29,7 +29,6 @@ const SupplyText2: React.FC = () => {
             WellGlobal Inc designs its logistics operations to ensure the safe, reliable, and timely transportation of crude oil, refined products, and essential energy materials across global markets.”
           </p>
           <p className="text-lg leading-relaxed">With a focus on operational excellence, the company leverages advanced technology and global partnerships to optimize supply chains.</p>
-          <p className="text-lg leading-relaxed">Its logistics network prioritizes safety, sustainability, and regulatory compliance at every stage of transportation.</p>
           <p className="text-lg leading-relaxed">By delivering energy resources efficiently, WellGlobal Inc plays a vital role in supporting economic growth and meeting global energy demands.</p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Ship, Globe2, Boxes } from "lucide-react";
+import { Globe2, Boxes } from "lucide-react";
 
 export default function SupplyChainSection() {
   return (
@@ -15,22 +15,10 @@ export default function SupplyChainSection() {
         </p> */}
       </div>
       {/* Content with Icons */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
         
         {/* Card 1 */}
-        <div className="flex flex-col items-center text-start p-3 sm:p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
-          <div className="p-4 bg-blue-100 rounded-full mb-4">
-            <Ship className="w-10 h-10 text-blue-600" />
-          </div>
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Maritime transport remains one of the most efficient methods for 
-            distributing refined products across global markets, and WellGlobal Inc 
-            leverages this capability to strengthen its international presence. With 
-            the ability to move large volumes of refined products cost-effectively 
-            over vast sea routes, WellGlobal Inc has established maritime transport 
-            as a vital pillar of its global supply chain strategy.
-          </p>
-        </div>
+        
 
         {/* Card 2 */}
         <div className="flex flex-col items-center text-start p-3 sm:p-6 bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition">
@@ -53,13 +41,7 @@ export default function SupplyChainSection() {
             <Boxes className="w-10 h-10 text-yellow-600" />
           </div>
           <p className="text-gray-600 text-sm leading-relaxed">
-            By building a robust supply chain and utilizing maritime transport, 
-            WellGlobal Inc aims to enhance its footprint, ensuring timely delivery of 
-            refined products while supporting economic development in these regions. 
-            As operations continue to grow, WellGlobal Inc remains committed to 
-            efficiency, sustainability, and innovation in logistics, further 
-            solidifying its position as a key player in the global refined products 
-            distribution network.
+            By building a robust supply network and strengthening its market presence, WellGlobal Inc aims to enhance its footprint, ensuring the reliable and timely supply of refined products while supporting economic development in key regions. As operations continue to grow, WellGlobal Inc remains committed to efficiency, sustainability, and innovation in supply practices, further solidifying its position as a leading supplier in the global refined products market.
           </p>
         </div>
       </div>
