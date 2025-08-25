@@ -9,10 +9,10 @@ export default function Footer() {
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-around items-center border-b border-gray-700 pb-10 mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-snug text-center md:text-left">
-            DELIVERED <span className="text-[#C5A15C]">ON TIME</span> <br />
-            WITH NO HASSLE.
+            On-Time<span className="text-[#C5A15C]"> Supply </span> <br />
+            Hassle-Free Service.
           </h2>
-
+ 
           <Link to="/contactus">
             <ContactBtn />
           </Link>
@@ -70,7 +70,7 @@ export default function Footer() {
                   href="tel:+13017558105" 
                   className="hover:underline text-gray-700"
                 >
-                  +13017558105
+                  +1 (301)-755-8105
                 </a>
               </li>
               

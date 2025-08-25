@@ -22,9 +22,9 @@ const GlobalAdvantage = () => {
         {/* Image Side */}
         <div className="flex">
           <img
-            src="/imgs/Untitled_design_3_kbRUYVg.png" // yaha apna image daalna
+            src="/imgs/new6.png" // yaha apna image daalna
             alt="WGI gobal advantage"
-            className="w-full h-full object-cover rounded-lg shadow-lg"
+            className="w-full h-96 object-cover rounded-lg shadow-lg"
           />
         </div>
       </div>

@@ -3,7 +3,8 @@ export default function ResponseHero() {
     <div
       className="relative w-full h-[60vh] md:h-[80vh] bg-cover"
       style={{
-        backgroundImage: `url('/imgs/Untitled design.png')`
+        backgroundImage: `url('/imgs/new5.jpg')`,
+        backgroundPosition: 'bottom'
       }}
     >
 

@@ -77,7 +77,7 @@ const ContactSection = () => {
             href="tel:+13017558105" 
             className="text-gray-700 hover:text-[#C5A15C] transition-colors"
           >
-            +13017558105
+            +1 (301)-755-8105
           </a>
         </div>
         

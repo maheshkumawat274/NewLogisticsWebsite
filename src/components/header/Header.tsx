@@ -24,7 +24,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex space-x-6">
+        <nav className="hidden sm:flex space-x-6">
           {navItems.map((item) => (
             <NavLink
               key={item.path}
@@ -45,7 +45,7 @@ const Header = () => {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setIsOpen(true)}
-          className="lg:hidden text-2xl text-gray-800"
+          className="sm:hidden text-2xl text-gray-800"
         >
           <FaBars />
         </button>
