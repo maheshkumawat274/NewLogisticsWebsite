@@ -1,6 +1,6 @@
 const PresidentMessage = () => {
   return (
-    <section className="bg-gray-50 py-16 px-4 md:px-10 ">
+    <section className="bg-gray-50 py-4 sm:py-16 px-4 md:px-10 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
         
         {/* Left Image */}

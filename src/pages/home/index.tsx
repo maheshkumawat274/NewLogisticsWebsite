@@ -4,6 +4,7 @@ import HomeTopSection from "../../components/home/HomeTopSection"
 import Operations from "../../components/home/Operations"
 import PresidentMessage from "../../components/home/PresidentMessage"
 import WelcomeSection from "../../components/home/WelcomeSection"
+import ManagementTeam from "../../components/supplychain/ManagementTeam"
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <HomeAbout/>
       <PresidentMessage/>
       <Operations/>
+      <ManagementTeam/>
       {/* <HomeCardsSection/> */}
      </div>
     </>
