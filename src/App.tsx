@@ -7,9 +7,7 @@ import './App.css'
 import "./index.css";
 import SupplychainPage from "./pages/supplychain";
 import ResponsibilityPage from "./pages/responsibility";
-import ProductsPage from "./pages/products";
 import ContactPage from "./pages/contact";
-import CareerPage from "./pages/career";
 import ScrollTop from "./components/ScrollTop";
 import PrivacyPolicy from "./components/privacypolicy/PrivacyPolicy";
 import TermsOfUse from "./components/privacypolicy/TermsofUse";
@@ -21,10 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<SupplychainPage/>}/>
-        <Route path="/responsibility" element={<ResponsibilityPage/>}/>
-        <Route path="/products" element={<ProductsPage/>}/>
+        <Route path="/services" element={<ResponsibilityPage/>}/>
         <Route path="/contactus" element={<ContactPage/>}/>
-        <Route path="/career" element={<CareerPage/>}/>
         <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
         <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>

@@ -36,10 +36,8 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-700">
               <li className="hover:underline"><Link to="/">Home</Link></li>
               <li className="hover:underline"><Link to="/aboutus">About Us</Link></li>
-              <li className="hover:underline"><Link to="/responsibility">Responsibility</Link></li>
-              <li className="hover:underline"><Link to="/products">Products</Link></li>
+              <li className="hover:underline"><Link to="/services">Services</Link></li>
               <li className="hover:underline"><Link to="/contactus">Contact Us</Link></li>
-              <li className="hover:underline"><Link to="/career">Career</Link></li>
             </ul>
           </div>
 
@@ -47,10 +45,9 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Services</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>Oil and Gas</li>
-              <li>Light Distillates Products</li>
-              <li>Middle Distillates Products</li>
-              <li>Frozen LPG</li>
+              <li>Fuels & Refined Products</li>
+              <li>Fertilizers</li>
+              <li>Metals & Gemstones</li>
             </ul>
           </div>
 

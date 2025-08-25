@@ -1,5 +1,4 @@
 import HomeAbout from "../../components/home/HomeAbout"
-import HomeCardsSection from "../../components/home/HomeCards"
 import { HomeTextScroll } from "../../components/home/HomeTextScroll"
 import HomeTopSection from "../../components/home/HomeTopSection"
 import Operations from "../../components/home/Operations"
@@ -19,7 +18,7 @@ const HomePage = () => {
       <HomeAbout/>
       <PresidentMessage/>
       <Operations/>
-      <HomeCardsSection/>
+      {/* <HomeCardsSection/> */}
      </div>
     </>
   )

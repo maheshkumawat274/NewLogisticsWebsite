@@ -5,7 +5,7 @@ const WelcomeSection = () => {
   return (
     <main className="font-sans text-gray-700">
       {/* Welcome Section */}
-      <section className="px-4 md:px-10 py-4 sm:py-16 bg-white">
+      <section className="px-4 md:px-10 pt-4 sm:pt-16 bg-white">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
           {/* Left: Welcome Text */}
           <div className="w-full md:w-1/2">

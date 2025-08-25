@@ -2,8 +2,8 @@
 const ContactSection = () => {
   return (
     <>
-     <section className="bg-gray-50 py-12">
-  <div className="max-w-6xl mx-auto px-4 text-center">
+     <section className="bg-gray-50 py-12 px-4 sm:px-10">
+  <div className=" mx-auto text-center">
     {/* Heading */}
     <h2 className="text-3xl font-bold text-[#C5A15C] mb-4">Get in Touch</h2>
     <p className="text-gray-600 mb-12">
@@ -79,14 +79,7 @@ const ContactSection = () => {
       </div>
 
 
-      {/* Right Image */}
-      <div className="flex justify-center md:col-span-2">
-        <img
-          src="/imgs/article-thumb-5.webp"
-          alt="Team discussion"
-          className="rounded-2xl shadow-lg w-full sm:w-[90%] h-[380px] object-cover"
-        />
-      </div>
+     
     </div>
   </div>
 </section>

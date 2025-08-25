@@ -8,11 +8,9 @@ const Header = () => {
 
   const navItems = [
     { name: "HOME", path: "/" },
-    { name: "SUPPLY CHAIN & LOGISTICS", path: "/aboutus" },
-    { name: "RESPONSIBILITY & SUSTAINABILITY", path: "/responsibility" },
-    { name: "PRODUCTS", path: "/products" },
+    { name: "ABOUT US", path: "/aboutus" },
+    { name: "SERVICES", path: "/services" },
     { name: "CONTACT US", path: "/contactus" },
-    { name: "CAREER", path: "/career" },
   ];
 
   return (

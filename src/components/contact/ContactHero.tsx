@@ -12,8 +12,8 @@ export default function ContactHero() {
       {/* Overlay with text */}
      {/* Black opacity footer with centered text */}
       <div className="absolute bottom-8 left-0 w-full flex justify-center text-center">
-        <h2 className="text-white text-2xl sm:text-5xl font-bold">
-         Heavy Distillates Products
+        <h2 className="text-white text-5xl font-bold">
+         Contact Us
         </h2>
       </div>
     </div>
