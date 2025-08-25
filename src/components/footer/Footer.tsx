@@ -24,9 +24,7 @@ export default function Footer() {
           <div>
             <h1 className="text-4xl font-bold mb-4">Well Global INC</h1>
             <p className="text-md font-semibold text-[#C5A15C]">
-              Well Global Inc is a premier, diversified energy company
-              strategically positioned to deliver superior and sustainable
-              returns.
+              We uphold the highest standards of integrity, transparency, and accountability, ensuring every transaction meets international compliance benchmarks while delivering a competitive edge to our clients.
             </p>
           </div>
 
