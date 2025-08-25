@@ -56,16 +56,24 @@ export default function Footer() {
               
               <li className="flex items-center gap-2">
                 <MdEmail className="text-[#C5A15C] text-xl" />
-                <span>Info@wellglobalinc.com</span>
+                <a 
+                  href="mailto:Info@wellglobalinc.com" 
+                  className="hover:underline text-gray-700"
+                >
+                  Info@wellglobalinc.com
+                </a>
               </li>
+              
               <li className="flex items-center gap-2">
                 <MdPhone className="text-[#C5A15C] text-xl" />
-                <span>+1 (301)-755-8105 / +1 (301)-755-8202</span>
+                <a 
+                  href="tel:+13017558105" 
+                  className="hover:underline text-gray-700"
+                >
+                  +13017558105
+                </a>
               </li>
-              <li className="flex items-center gap-2">
-                <MdPhone className="text-[#C5A15C] text-xl" />
-                <span>+971 588-878-081 / +971 585-859-178</span>
-              </li>
+              
             </ul>
           </div>
         </div>

@@ -62,20 +62,25 @@ const ContactSection = () => {
         {/* Email */}
         <div className="flex items-center gap-3 mb-4">
           <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">📧</span>
-          <p className="text-gray-700">Info@wellglobalinc.com</p>
+          <a 
+            href="mailto:Info@wellglobalinc.com" 
+            className="text-gray-700 hover:text-[#C5A15C] transition-colors"
+          >
+            Info@wellglobalinc.com
+          </a>
         </div>
-      
+        
         {/* Phone */}
         <div className="flex items-center gap-3 mb-4">
           <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">📞</span>
-          <p className="text-gray-700">+1 (301)-755-8105 / +1 (301)-755-8202</p>
+          <a 
+            href="tel:+13017558105" 
+            className="text-gray-700 hover:text-[#C5A15C] transition-colors"
+          >
+            +13017558105
+          </a>
         </div>
-      
-        {/* Tel */}
-        <div className="flex items-center gap-3">
-          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">☎️</span>
-          <p className="text-gray-700">+971 588-878-081 / +971 585-859-178</p>
-        </div>
+        
       </div>
 
 
