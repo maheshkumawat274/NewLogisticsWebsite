@@ -80,6 +80,12 @@ const ContactSection = () => {
             +1 (301)-755-8105
           </a>
         </div>
+        <div className="flex items-start gap-3 ">
+          <span className="p-3 rounded-full bg-[#C5A15C]/10 text-[#C5A15C]">🌐</span>
+          <a href="http://www.wellglobalinc.com/" className=" pt-2 hover:underline text-blue-600">
+            www.wellglobalinc.com
+          </a>
+        </div>
         
       </div>
 

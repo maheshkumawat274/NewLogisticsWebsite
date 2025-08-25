@@ -26,7 +26,7 @@ const ManagementTeam = () => {
             </li>
             <li>
               <p className="font-semibold text-lg sm:text-2xl text-[#C5A15C]">Nana Ebo A. Adu (Chief Operations Officer)-</p> 
-              <p>An experienced Petroleum Engineer with over 7 years in the oil & gas sector, pning upstream to downstream, now driving efficiency and excellence in refined products and commodity operations.</p>
+              <p>An experienced Petroleum Engineer with over 7 years in the oil & gas sector, Spanning upstream to downstream, now driving efficiency and excellence in refined products and commodity operations.</p>
             </li>
           </ul>
         </div>
