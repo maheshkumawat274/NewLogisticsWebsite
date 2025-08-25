@@ -21,7 +21,6 @@ const WelcomeSection = () => {
           <div className="w-full md:w-1/2 text-center md:text-left flex justify-center items-center">
             <div>
               <img src="./imgs/export-import-business-businessmen-handshake-600nw-1909379125.webp" alt="Handshake" className="w-full mx-auto md:mx-0 mb-6" />
-            <p className="text-xl font-medium"> Connecting <span className="text-[#C5A15C] font-semibold">Markets, Commodities & Communities</span> Worldwide </p>
             <Link to='/contactus'>
              <button className="mt-4 px-6 py-2 border-1 border-black text-black rounded hover:bg-[#C5A15C] transition-all cursor-pointer">
               Let's Talk
