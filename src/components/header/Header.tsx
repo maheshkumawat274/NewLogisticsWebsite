@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Header = () => {
@@ -20,7 +20,9 @@ const Header = () => {
       <div className="flex justify-between items-center px-6">
         {/* Logo */}
         <div className="w-24 h-24">
-          <img src="/imgs/logoMain.png" className="w-full h-full"/>
+          <Link to='/'>
+           <img src="/imgs/logoMain.png" className="w-full h-full"/>
+          </Link>
         </div>
 
         {/* Desktop Menu */}
@@ -63,7 +65,9 @@ const Header = () => {
           >
             {/* Top Bar with Logo + Close */}
             <div className="flex justify-between items-center px-6 py-4 border-b border-gray-300">
-              <img src="/imgs/logoMain.png" className="w-18 h-18"/>
+             <Link to='/'>
+               <img src="/imgs/logoMain.png" className="w-18 h-18"/>
+             </Link>
               <button
                 onClick={() => setIsOpen(false)}
                 className="text-3xl text-gray-800"
