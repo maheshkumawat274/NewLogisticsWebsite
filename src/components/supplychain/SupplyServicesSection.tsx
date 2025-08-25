@@ -25,7 +25,7 @@ const SupplyServicesSection = () => {
       <div className="mx-auto text-start md:text-center mb-15">
         <h2 className="text-3xl sm:text-5xl font-bold">Our Services</h2>
         <div className="flex justify-center py-5">
-          <p className="text-xl sm:text-2xl max-w-5xl ">“This section provides visitors with a clear overview of WellGlobal Inc’s core services, highlighting our expertise in energy exploration, production, logistics, and sustainable supply chain solutions</p>
+          <p className="text-xl sm:text-2xl max-w-5xl ">“This section provides visitors with a clear overview of WellGlobal Inc’s core services, highlighting our expertise in energy exploration, supply, and sustainable distribution solutions.</p>
         </div>
       </div>
 
