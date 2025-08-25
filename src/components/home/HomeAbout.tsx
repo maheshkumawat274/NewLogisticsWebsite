@@ -17,7 +17,7 @@ const HomeAbout: React.FC<HomeAboutProps> = ({ showButton = true }) => {
         {/* Left Image */}
         <div className="flex">
           <img
-            src="/imgs/gold.png"
+            src="/imgs/new1.jpg"
             alt="Aboutus of WELL GLOBAL INC"
             className="w-full h-96 object-cover rounded-lg shadow-lg"
           />

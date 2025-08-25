@@ -34,7 +34,7 @@ const ManagementTeam = () => {
         {/* Image Side */}
         <div className="flex">
           <img
-            src="/imgs/8aeGWBMfVOxjRUvqxGcsaHX18t8HkFHpcTzmxZ9z.webp" // yaha apna image daalna
+            src="/imgs/new4.jpg" // yaha apna image daalna
             alt="WGI Management Team"
             className="w-full h-full object-cover rounded-lg shadow-lg"
           />

@@ -5,7 +5,7 @@ const operations = [
     description:
       "Anchored in Houston, Rotterdam, and Dubai, with trading channels extending across the Middle East and Asia.",
     items: ["Diesel (EN590)", "Jet Fuel (A1)", "D6 Virgin Fuel Oil", "Other refined petroleum products"],
-    img: "/imgs/Oil.jpg", // Google se lene ke baad file naam SEO-friendly rakhna
+    img: "/imgs/new3.jpg", // Google se lene ke baad file naam SEO-friendly rakhna
     alt: "Well Global Inc Fuels and Refined Petroleum Products",
   },
   {

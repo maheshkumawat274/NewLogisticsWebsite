@@ -6,7 +6,7 @@ const PresidentMessage = () => {
         {/* Left Image */}
         <div className="flex">
           <img
-            src="/imgs/1712204490285.jpeg"
+            src="/imgs/new2.jpg"
             alt="President of WELL GLOBAL INC"
             className="w-full h-full object-cover rounded-lg shadow-lg"
           />
