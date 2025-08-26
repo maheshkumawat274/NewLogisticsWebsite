@@ -16,16 +16,15 @@ const ManagementTeam = () => {
 
           <ul className="space-y-4 text-gray-700">
             <li>
-              <p className="font-semibold text-lg sm:text-2xl text-[#C5A15C]">Anand Sahay (President)-</p> 
+              <p className="font-semibold text-lg sm:text-xl text-[#C5A15C]">ANAND SAHAY <span className="text-lg">(President)-</span></p> 
               <p>Over 30 years of expertise in banking and finance, providing strong financial governance and strategic direction for global growth.</p>
             </li>
             <li>
-              <p className="font-semibold text-lg sm:text-2xl text-[#C5A15C]">Fitnat Omari Ababio (Vice President)-  
-</p> 
+              <p className="font-semibold text-lg sm:text-xl text-[#C5A15C]"> FITNAT OMARI ABABIO <span className="text-lg"> (Vice President)-</span> </p> 
               <p>More than 30 years in finance, sales, and marketing, with deep business acumen and global commercial expertise.</p>
             </li>
             <li>
-              <p className="font-semibold text-lg sm:text-2xl text-[#C5A15C]">Nana Ebo A. Adu (Chief Operations Officer)-</p> 
+              <p className="font-semibold text-lg sm:text-xl text-[#C5A15C]">NANA EBO A. ADU <span className="text-lg">(Chief Operations Officer)-</span></p> 
               <p>An experienced Petroleum Engineer with over 7 years in the oil & gas sector, Spanning upstream to downstream, now driving efficiency and excellence in refined products and commodity operations.</p>
             </li>
           </ul>
