@@ -4,7 +4,7 @@ import HomeTopSection from "../../components/home/HomeTopSection"
 import Operations from "../../components/home/Operations"
 import PresidentMessage from "../../components/home/PresidentMessage"
 import WelcomeSection from "../../components/home/WelcomeSection"
-import ManagementTeam from "../../components/supplychain/ManagementTeam"
+import ManagementTeam from "../../components/about/ManagementTeam"
 
 
 const HomePage = () => {

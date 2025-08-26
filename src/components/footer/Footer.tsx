@@ -43,9 +43,9 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Services</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>Fuels & Refined Products</li>
-              <li>Fertilizers</li>
-              <li>Metals & Gemstones</li>
+              <li className="hover:underline"><Link to='/services'>Fuels & Refined Products</Link></li>
+              <li className="hover:underline"><Link to='/services'>Fertilizers</Link></li>
+              <li className="hover:underline"><Link to='/services'>Metals & Gemstones</Link></li>
             </ul>
           </div>
 
@@ -71,6 +71,15 @@ export default function Footer() {
                   className="hover:underline text-gray-700"
                 >
                   +1 (301)-755-8105
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <MdPhone className="text-[#C5A15C] text-xl" />
+                <a 
+                  href="tel:+13017558202" 
+                  className="hover:underline text-gray-700"
+                >
+                  +1(301)-755-8202
                 </a>
               </li>
               

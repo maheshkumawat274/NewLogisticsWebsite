@@ -47,11 +47,22 @@ const PresidentMessage = () => {
             market.
           </p>
 
-          {/* Signature */}
-          <div className="mt-6">
-            <p className="text-xl font-semibold text-gray-900">Anand Sahay</p>
-            <p className="text-md text-gray-600">President, WELL GLOBAL INC</p>
+          {/* Signature Section */}
+          <div className="mt-6 flex items-center space-x-4">
+            {/* Left Image */}
+            <img
+              src="/imgs/signature.jpg"   // yaha apni image ka path do
+              alt="Signature"
+              className="w-24 h-26 object-cover rounded-full"
+            />
+          
+            {/* Right Content */}
+            <div>
+              <p className="text-xl font-semibold text-gray-900">Anand Sahay</p>
+              <p className="text-md text-gray-600">President, WELL GLOBAL INC</p>
+            </div>
           </div>
+          
         </div>
       </div>
     </section>

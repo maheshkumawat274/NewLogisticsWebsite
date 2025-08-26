@@ -6,7 +6,7 @@ interface HomeAboutProps {
 
 const HomeAbout: React.FC<HomeAboutProps> = ({ showButton = true }) => {
   return (
-    <section className="px-4 md:px-10 py-10">
+    <section className="px-4 md:px-10 py-4 sm:py-10">
       <div>
         <h3 className="text-3xl sm:text-4xl font-bold">About Us</h3>
       </div>

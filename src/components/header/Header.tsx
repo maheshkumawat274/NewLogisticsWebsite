@@ -16,20 +16,12 @@ const Header = () => {
   return (
     <header className="w-full px-4 md:px-10 shadow-md fixed top-0 left-0 bg-white z-50">
       <div className="flex justify-between items-center">
-        {/* Logo (Video) */}
+        {/* Logo */}
         <div className="w-24 h-24">
           <Link to='/'>
-            <video 
-              src="/imgs/logoupdate.mp4" 
-              autoPlay 
-              loop 
-              muted 
-              playsInline 
-              className="w-full h-full object-contain rounded-full"
-            />
+           <img src="/imgs/logoMain.png" className="w-full h-full"/>
           </Link>
         </div>
-        
 
         {/* Desktop Menu */}
         <nav className="hidden sm:flex space-x-6">

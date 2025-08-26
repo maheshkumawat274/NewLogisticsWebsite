@@ -5,8 +5,8 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import './App.css'
 import "./index.css";
-import SupplychainPage from "./pages/supplychain";
-import ResponsibilityPage from "./pages/responsibility";
+import SupplychainPage from "./pages/about";
+import ResponsibilityPage from "./pages/services";
 import ContactPage from "./pages/contact";
 import ScrollTop from "./components/ScrollTop";
 import PrivacyPolicy from "./components/privacypolicy/PrivacyPolicy";
